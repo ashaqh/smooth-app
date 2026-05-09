@@ -18,28 +18,28 @@ const ColorScheme lightColorScheme = ColorScheme(
 
 const ColorScheme darkColorScheme = ColorScheme(
   brightness: Brightness.dark,
-  primary: Color(0xFFFFFFFF),
-  inversePrimary: Color(0xFFFFFFFF),
-  onPrimary: Color(0xFF000000),
-  secondary: Color(0xFFA08D84),
+  primary: Color(0xFF6B8CAE),
+  inversePrimary: Color(0xFF9BB4D1),
+  onPrimary: Color(0xFFFFFFFF),
+  secondary: Color(0xFF5A7A9E),
   onSecondary: Color(0xFFFFFFFF),
   error: Color(0xFFEB5757),
   onError: Color(0xFFFFFFFF),
-  surface: Color(0xFF201A17),
-  onSurface: Color(0xFFFFFFFF),
+  surface: Color(0xFF0A1628),
+  onSurface: Color(0xFFE8EDF3),
 );
 
 const ColorScheme trueDarkColorScheme = ColorScheme(
   brightness: Brightness.dark,
   primary: COLOR_DEFAULT,
-  inversePrimary: Color(0xFFFFFFFF),
-  onPrimary: Color(0xFF000000),
+  inversePrimary: Color(0xFF9BB4D1),
+  onPrimary: Color(0xFFFFFFFF),
   secondary: COLOR_DEFAULT,
-  onSecondary: Color(0xFFE1E1E1),
+  onSecondary: Color(0xFFE8EDF3),
   error: Color(0xFFEA2B2B),
-  onError: Color(0xFFE1E1E1),
-  surface: Color(0xFF000000),
-  onSurface: Color(0xFFFFFFFF),
+  onError: Color(0xFFE8EDF3),
+  surface: Color(0xFF000814),
+  onSurface: Color(0xFFE8EDF3),
 );
 
 const String CONTRAST_LOW = 'Low';
@@ -47,23 +47,23 @@ const String CONTRAST_MEDIUM = 'Medium';
 const String CONTRAST_HIGH = 'High';
 
 // All of the contrast Level passes WCAG 2.1 Results for text Readability.
-const Color LOW_CONTRAST_TEXT_COLOR = Color(0xff969696);
-const Color MEDIUM_CONTRAST_TEXT_COLOR = Color(0xffcacaca);
-const Color HIGH_CONTRAST_TEXT_COLOR = Color(0xffffffff);
+const Color LOW_CONTRAST_TEXT_COLOR = Color(0xffA8BDD4);
+const Color MEDIUM_CONTRAST_TEXT_COLOR = Color(0xffD1DDE8);
+const Color HIGH_CONTRAST_TEXT_COLOR = Color(0xffFFFFFF);
 
 const Color Test = Colors.white10;
 
 const String COLOR_DEFAULT_NAME = 'Default';
-const Color COLOR_DEFAULT = Color(0xff85746c);
-const Color COLOR_BLUE = Colors.blue;
-const Color COLOR_CYAN = Color(0xff0097a7);
-const Color COLOR_GREEN = Color(0xff009b52);
-const Color COLOR_MAGENTA = Color(0xffff00ff);
-const Color COLOR_ORANGE = Colors.deepOrange;
-const Color COLOR_PINK = Colors.pink;
-const Color COLOR_RED = Color(0xffff0000);
-const Color COLOR_RUST = Color(0xffb7410e);
-const Color COLOR_TEAL = Colors.teal;
+const Color COLOR_DEFAULT = Color(0xff6B8CAE);
+const Color COLOR_BLUE = Color(0xff3A7CA5);
+const Color COLOR_CYAN = Color(0xff16C5B8);
+const Color COLOR_GREEN = Color(0xff2A9D8F);
+const Color COLOR_MAGENTA = Color(0xffA855F7);
+const Color COLOR_ORANGE = Color(0xffF59E0B);
+const Color COLOR_PINK = Color(0xffEC4899);
+const Color COLOR_RED = Color(0xffEF4444);
+const Color COLOR_RUST = Color(0xffD97706);
+const Color COLOR_TEAL = Color(0xff14B8A6);
 
 const Map<String, Color> colorNamesValue = <String, Color>{
   'Default': COLOR_DEFAULT,

@@ -56,7 +56,7 @@ class SmoothTheme {
       canvasColor: themeProvider.currentTheme == THEME_AMOLED
           ? myColorScheme.surface
           : null,
-      scaffoldBackgroundColor: lightTheme ? null : const Color(0xFF303030),
+      scaffoldBackgroundColor: lightTheme ? null : const Color(0xFF0F1E2E),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ButtonStyle(
           backgroundColor: WidgetStateProperty.resolveWith<Color?>(
@@ -87,10 +87,10 @@ class SmoothTheme {
         titleTextStyle: textTheme.titleLarge,
       ),
       dividerTheme: const DividerThemeData(
-        color: Color(0xFFECECEC),
+        color: Color(0xFF2C3E54),
         space: 1.0,
       ),
-      dividerColor: const Color(0xFFDFDFDF),
+      dividerColor: const Color(0xFF1B2A3E),
       inputDecorationTheme: InputDecorationTheme(
         fillColor: myColorScheme.secondary,
       ),
